@@ -1,8 +1,10 @@
+import Navbar from "./Components/Layout/Navbar"
+
 const App = ()=>{
     return(
-        <div>
-            App
-        </div>
+        <>
+        <Navbar />
+        </>
     )
 }
 export default App
