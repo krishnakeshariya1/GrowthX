@@ -1,5 +1,5 @@
 import Navbar from "./Components/Layout/Navbar/Navbar"
-import Hero from "./Components/Sections/Hero"
+import Hero from "./Components/Sections/Hero/Hero"
 
 const App = ()=>{
     return(

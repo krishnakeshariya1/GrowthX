@@ -1,6 +1,8 @@
-import Button from "../UI/Button";
+import Button from "../../UI/Button";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
+import Heading1 from "./Heading1";
+import Paragraph from "./paragraph";
 
 const Hero = ()=> {
   const ref = useRef(null);
@@ -24,19 +26,8 @@ const Hero = ()=> {
         ref={ref}
         className="text-center px-4 max-w-3xl"
       >
-        <h1 className="text-5xl md:text-6xl font-extrabold leading-tight">
-          Build Products That{" "}
-          <span className=" bg-linear-to-r from-indigo-600 to-pink-500 bg-clip-text text-transparent">
-            Scale Growth
-          </span>
-        </h1>
-
-        <p className="mt-6 text-xl text-gray-600">
-          Data-driven UI systems crafted for
-          performance, engagement, and investor
-          confidence.
-        </p>
-
+        < Heading1 />
+        < Paragraph />
         <div className="mt-8 flex gap-4 justify-center">
           <Button>Get Started</Button>
           <Button variant="outline">View Demo</Button>
