@@ -1,3 +1,5 @@
+import Button from "../UI/Button";
+
 const Navbar =()=> {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-white/70 backdrop-blur shadow-sm">
@@ -12,7 +14,7 @@ const Navbar =()=> {
           <a href="#whyus" className="hover:text-indigo-600">Why Us</a>
           <a href="#growth" className="hover:text-indigo-600">Growth</a>
         </div>
-        <button className="bg-indigo-600 text-white hover:bg-indigo-700 cursor-pointer">Get start</button>
+        <Button  variant="primary">Get started</ Button>
       </div>
     </nav>
   );
