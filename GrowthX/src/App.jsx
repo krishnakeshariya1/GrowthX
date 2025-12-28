@@ -1,6 +1,7 @@
 import Navbar from "./Components/Layout/Navbar/Navbar"
 import Features from "./Components/Sections/Features/Features"
 import Hero from "./Components/Sections/Hero/Hero"
+import WhyUs from "./Components/Sections/WhyUs/WhyUs"
 
 const App = ()=>{
     return(
@@ -9,6 +10,7 @@ const App = ()=>{
         <main className="mt-10"></main>
         <Hero />
         <Features />
+        <WhyUs />
         </>
     )
 }
