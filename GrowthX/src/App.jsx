@@ -1,3 +1,4 @@
+import Footer from "./Components/Layout/Footer/Footer"
 import Navbar from "./Components/Layout/Navbar/Navbar"
 import Features from "./Components/Sections/Features/Features"
 import Growth from "./Components/Sections/Growth/Growth"
@@ -13,6 +14,7 @@ const App = ()=>{
         <Features />
         <WhyUs />
         <Growth />
+        < Footer />
         </>
     )
 }
